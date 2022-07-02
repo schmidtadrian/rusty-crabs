@@ -1,0 +1,14 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.6"
+bevy_networking_turbulence = "0.4.1"
+bevy_kira_audio = { version = "0.8" }
+bevy_asset_loader = { version = "0.9" }
+serde = "1.0.137"
+shared = { path = "../shared" }
